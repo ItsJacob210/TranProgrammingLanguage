@@ -4,10 +4,10 @@ Tran is an object-oriented interpreted programming language designed and impleme
 
 ## Layout
 - src/
-  - Lexer, Token, TokenManager, SyntaxErrorException, TextManager
+  - Lexer, Parser, TokenManager, SyntaxErrorException, TextManager
   - AST/… (nodes for classes, interfaces, methods, expressions, statements)
   - Interpreter/… (interpreter core + IDT runtime types, builtin's)
-  - Main.java (entry point) and JUnit tests for lexer/parser/interpreter
+  - JUnit tests for lexer/parser/interpreter
 - EBNF/ (grammar struct)
 
 ## Purpose
